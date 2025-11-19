@@ -14,7 +14,6 @@ class StateMachine {
 		if (state !== undefined) {
 			this.currentState = stateName;
 			if (state.Enter) state.Enter();
-			if (state.Exit) state.Exit();
 		}
 	}
 
