@@ -1,0 +1,19 @@
+{
+  "name": "stateMachine",
+  "version": "1.0.0",
+  "description": "A single Roblox-TS script for state management",
+  "main": "out/stateMachine.lua",
+  "scripts": {
+    "build": "rbxtsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexHamlyn/StateMachine"
+  },
+  "keywords": ["roblox", "rbxts", "state", "ai"],
+  "author": "Alex Hamlyn",
+  "license": "MIT",
+  "devDependencies": {
+    "roblox-ts": "^3.1.0"
+  }
+}
